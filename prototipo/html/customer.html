@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME</title>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- FRAMEWORK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="../css/styles2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="navbar-brand">ACME</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Inicio<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Categorías
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Deportivo</a>
+                <a class="dropdown-item" href="#">Lujoso</a>
+                <a class="dropdown-item" href="#">Convertible</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav justify-content-center">
+              <li class="nav-item">
+                  <a href="carrito.html" class="nav-link"><img src="../recursos/carrito-de-compras.png" alt=""></a>
+              </li>
+          </ul>
+          <ul class="navbar-nav nav justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link">Cerrar sesion</a></li>
+          </ul>
+        </div>
+      </nav>
+
+      <br><br>
+      <div class="container">
+      <div class="row cols-sm-1 row-cols-md-2 row-cols-lg-3">
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Deportivo</h5>
+            <img src="../recursos/deportivo.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 500</span></h5>
+              <div class="d-grid">
+              <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Deportivo</h5>
+            <img src="../recursos/deportivo2.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 250</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Lujoso</h5>
+            <img src="../recursos/auto lujoso.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 310</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Convertible</h5>
+            <img src="../recursos/convertible.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 400</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Deportivo</h5>
+            <img src="../recursos/deportivo3.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 500</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Convertible</h5>
+            <img src="../recursos/convertible2.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 410</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Convertible</h5>
+            <img src="../recursos/convertible3.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 290</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Lujoso</h5>
+            <img src="../recursos/lujoso.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 500</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-4">
+          <div class="card shadow mb-1 bg-dark" style="width: 20rem;">
+            <h5 class="card-title pt-2 text-center text-primary">Carro Lujoso</h5>
+            <img src="../recursos/lujoso2.jfif" alt="..." class="imgTamaño">
+            <div class="card-body">
+              <p class="card-text text-white-50 description">Sin choques, todos sus papeles en regla, información de cada chequeo y servicios de mantenimiento, condición del motor y caja.</p>
+              <h5 class="text-primary">Precio: <span class="precio">$ 340</span></h5>
+              <div class="d-grid">
+                <button class="btn btn-primary button" onclick="window.location.href='detallecompra.html'">Ver detalles</button><br>
+              <button  class="btn btn-primary button" onclick="alert('Añadido al carrito')">Añadir a Carrito</button>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="PiePagina">
+      <div class="grupo1">
+        <div class="caja">
+          <figure>
+              <h1>ACME</h1>
+          </figure>
+        </div>
+        <div class="caja">
+          <h2>Sobre nosotros.</h2>
+          <p align="center">La empresa ficticia Acme existe en el universo de los Looney Tunes. Apareció la mayor cantidad de veces en las caricaturas de El Coyote y el Correcaminos, que hicieron famosa a Acme por sus productos peligrosos y poco reales, los cuales fallaban catastróficamente y terminaban en explosiones.</p>
+        </div>
+        <div class="caja">
+          <h2>Siguenos</h2>
+          <div class="redes">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-twitter"></a>
+          </div>
+        </div>
+      </div>
+      <div class="grupo2">
+        <small>&copy; 2022 <b>ACME</b> - Todos los Derechos Reservados</small>
+      </div>
+      
+    </footer>
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+    background: url(../recursos/background-login.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.imgTamaño{
+    height: 200px;
+    width: 318px;
+}
+.imgTamaño1{
+    height: 128px;
+    width: 128px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.main{
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.form-group input{
+    border-radius: 5px;
+}
+
+.divContainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#separar{
+    border-bottom: 2px solid;
+}
+
+.PiePagina{
+	width: 100%;
+
+}
+
+.PiePagina .grupo1{
+	width: 100%;
+	max-width: 1600px;
+	margin: auto;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 50px;
+	padding: 30px 0px;
+}
+
+.PiePagina .grupo1 .caja figure{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.PiePagina .grupo1 .caja figure img{
+	width: 190px;
+}
+
+.PiePagina .grupo1 .caja h2{
+	color: #fff;
+	margin-bottom: 25px;
+	font-size: 20px;
+}
+
+.PiePagina .grupo1 .caja p{
+	color: #efefef;
+	margin-bottom: 10px;
+	text-align: justify;
+}
+
+.PiePagina .grupo1 .redes a{
+	display: inline-block;
+	text-decoration: none;
+	width: 45px;
+	height: 45px;
+	line-height: 45px;
+	color: #fff;
+	margin-right: 10px;
+	background-color: #828282;
+	text-align: center;
+	border-radius: 6px;
+	transition: .3s ease all;
+}
+
+
+.PiePagina .grupo1 .redes a:hover{
+	border-radius: 6px;
+
+}
+
+.PiePagina .grupo2{
+
+	padding: 15px 10px;
+	text-align: center;
+	color: #fff;
+}
+
+.PiePagina .grupo2 small{
+	font-size: 15px;
+	font-weight: bold;
+}

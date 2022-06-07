@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACME</title>
+    <!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!-- FRAMEWORK BOOTSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/styles2.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <h1 class="navbar-brand">ACME</h1>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+          </ul>
+          <ul class="navbar-nav nav justify-content-end">
+            <li class="nav-item"><a href="index.html" class="nav-link">Cerrar sesion</a></li>
+          </ul>
+        </div>
+      </nav>
+    
+      <div class="card mb-3 modal-dialog text-center modal-content" style="max-width: 1300px;">
+        <div class="card-body">
+          <h4 class="text-info">Reporte de utilidad</h4>
+          <table class="table table-dark">
+            <tr>
+              <td>Proveedor</td>
+              <td>Producto</td>
+              <td>Precio del proveedor</td>
+              <td>Vehículos comprados</td>
+              <td>Vehículos vendidos</td>
+              <td>Precio vendidos</td>
+              <td>Porcentaje de ganancias</td>
+              <td>Fecha</td>
+            </tr>
+            <tr>
+              <td>Chanchito feliz</td>
+              <td>Carro deportivo</td>
+              <td>$100</td>
+              <td>5</td>
+              <td>2</td>
+              <td>$130</td>
+              <td>30%</td>
+              <td>12/05/2022</td>
+            </tr>
+            <tr>
+              <td>RACE</td>
+              <td>Carro convertible</td>
+              <td>$200</td>
+              <td>10</td>
+              <td>6</td>
+              <td>$260</td>
+              <td>30%</td>
+              <td>05/9/2021</td>
+            </tr>
+            <tr>
+              <td>Carros S.A.S</td>
+              <td>Carro deportivo</td>
+              <td>$150</td>
+              <td>3</td>
+              <td>3</td>
+              <td>$45</td>
+              <td>30%</td>
+              <td>22/01/2022</td>
+            </tr>
+          </table>
+          <div class="container">
+            <div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3">
+              <div class="col d-flex justify-content-center mb-4">
+                <button class="btn btn-primary button" onclick="alert('Reporte generado')">Generar reporte mensual</button>
+              </div>
+              <div class="col d-flex justify-content-center mb-4">
+                <button class="btn btn-primary button" onclick="alert('Reporte generado')">Generar reporte</button>
+              </div>
+              <div class="col d-flex justify-content-center mb-4">
+                <button class="btn btn-primary button" onclick="alert('Reporte generado')">Generar reporte trimestral</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row row-cols-sm-1 row-cols-md-2">
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card mb-3 modal-dialog text-center modal-content" style="max-width: 1000px;;">
+              <h4 class="text-info">Segmentación de mercado</h4>
+              <br>
+              <table class="table table-dark">
+                <tr>
+                  <td>Edad</td>
+                  <td>Código del vehículo</td>
+                  <td>Nombre del vehículo</td>
+                  <td>Modelo</td>
+                  <td>Categoría</td>
+                  <td>Color</td>
+                </tr>
+                <tr>
+                  <td>19</td>
+                  <td>09</td>
+                  <td>Fantastic</td>
+                  <td>xyz</td>
+                  <td>Lujoso</td>
+                  <td>Azul</td>
+                </tr>
+                <tr>
+                  <td>25</td>
+                  <td>01</td>
+                  <td>Tesla</td>
+                  <td>2.0</td>
+                  <td>Lujoso</td>
+                  <td>Negro</td>
+                </tr>
+                <tr>
+                  <td>21</td>
+                  <td>32</td>
+                  <td>Dog</td>
+                  <td>Chevrolet</td>
+                  <td>Convertible</td>
+                  <td>Amarillo</td>
+                </tr>
+              </table>
+              <label class="text-info">Rango de edad</label>
+              <br>
+              <div class="container">
+                <div class="row row-cols-sm-1 row-cols-md-2">
+                  <div class="col"><input type="text" class="form-control" placeholder="18" required></div>
+                  <div class="col"><input type="text" class="form-control" placeholder="28" required></div>
+                </div>
+              </div>
+              <br>
+              <button class="btn btn-primary button" type="button" onclick="alert('Reporte generado')">Mostrar segmentación</button><br>
+            </div>
+          </div>
+          <div class="col d-flex justify-content-center mb-4">
+            <div class="card mb-3 modal-dialog text-center modal-content" style="max-width: 1000px;;">
+              <h4 class="text-info">Segmentación de mercado</h4>
+              <img src="../recursos/grafico.jpg" alt="" style="height: 250px;">
+              <label class="text-info">Comparar meses</label>
+              <div class="container">
+                <div class="row row-cols-sm-1 row-cols-md-2">
+                  <div class="col">
+                    <label class="text-info">Primer mes</label>
+                    <select class="custom-select mb-3">
+                      <option selected>Enero</option>
+                      <option value="1">Febrero</option>
+                      <option value="2">Marzo</option>
+                      <option value="3">Abril</option>
+                      <option value="4">Mayo</option>
+                      <option value="5">Junio</option>
+                      <option value="6">Julio</option>
+                      <option value="7">Agosto</option>
+                      <option value="8">Septiembre</option>
+                      <option value="9">Octubre</option>
+                      <option value="10">Noviembre</option>
+                      <option value="11">Diciembre</option>
+                    </select>
+                  </div>
+                  <div class="col">
+                    <label class="text-info">Segundo mes</label>
+                    <select class="custom-select mb-3">
+                      <option selected>Enero</option>
+                      <option value="1">Febrero</option>
+                      <option value="2">Marzo</option>
+                      <option value="3">Abril</option>
+                      <option value="4">Mayo</option>
+                      <option value="5">Junio</option>
+                      <option value="6">Julio</option>
+                      <option value="7">Agosto</option>
+                      <option value="8">Septiembre</option>
+                      <option value="9">Octubre</option>
+                      <option value="10">Noviembre</option>
+                      <option value="11">Diciembre</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <button class="btn btn-primary button" type="button" onclick="alert('Reporte generado')">Comparar meses</button><br>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card mb-3 modal-dialog text-center modal-content" style="max-width: 1300px;">
+        <div class="card-body">
+          <h4 class="text-info">Reporte historico</h4>
+          <table class="table table-dark">
+            <tr>
+              <td>Proveedor</td>
+              <td>Producto</td>
+              <td>Precio del proveedor</td>
+              <td>Vehículos comprados</td>
+              <td>Vehículos vendidos</td>
+              <td>Precio vendidos</td>
+              <td>Porcentaje de ganancias</td>
+              <td>Fecha</td>
+            </tr>
+            <tr>
+              <td>Chanchito feliz</td>
+              <td>Carro deportivo</td>
+              <td>$100</td>
+              <td>5</td>
+              <td>2</td>
+              <td>$130</td>
+              <td>30%</td>
+              <td>12/05/2022</td>
+            </tr>
+            <tr>
+              <td>RACE</td>
+              <td>Carro convertible</td>
+              <td>$200</td>
+              <td>10</td>
+              <td>6</td>
+              <td>$260</td>
+              <td>30%</td>
+              <td>05/9/2001</td>
+            </tr>
+            <tr>
+              <td>Carros S.A.S</td>
+              <td>Carro deportivo</td>
+              <td>$150</td>
+              <td>3</td>
+              <td>3</td>
+              <td>$45</td>
+              <td>30%</td>
+              <td>22/01/2009</td>
+            </tr>
+          </table>
+          <form>
+            <div class="position-absolute">
+              <input type="text" placeholder="Año" class="form-control" required>
+            </div>
+            <button class="btn btn-primary button" onclick="alert('Reporte generado')">Filtrar año</button>
+          </form>
+        </div>
+      </div>
+
+</body>
+</html>

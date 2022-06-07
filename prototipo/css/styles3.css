@@ -1,0 +1,51 @@
+body{
+    background: url(../recursos/background-login.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.imgTamaño{
+    height: 200px;
+    width: 318px;
+}
+.imgTamaño1{
+    height: 128px;
+    width: 160px;
+}
+
+.user-img img{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0px 0px 3px #848484;
+    border-radius: 50%;
+}
+
+.main{
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 0 20px;
+    box-shadow: 0px 0px 3px #848484;
+}
+
+.form-group input{
+    border-radius: 5px;
+}
+
+.divContainer{
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#separar{
+    border-bottom: 2px solid;
+}
